@@ -1,0 +1,384 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.9vw;
+}
+.boxcenter{
+    width: 60%;
+    margin: 0 auto;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.mb{
+    margin-bottom: 30px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.demo{
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+.header{
+    background-color: aquamarine;
+    border: 1px #009900 solid;
+    color: blue;
+    border-radius: 5px;
+}
+.footer{
+    background-color: aquamarine;
+    border: 1px #009900 solid;
+    font-size: 0.8vw;
+    color: blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+.header h1{
+    margin: 20px;
+    font-size: 1.5vw;
+}
+.menu{
+    background-color: black;
+    color: #ccc;
+    border-radius: 5px;
+}
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+.boxphai{
+    float: left;
+    width: 26%;
+}
+.boxtitle{
+    color: #333;
+    padding: 10px;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #333 solid;
+}
+.boxcontent{
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    min-height: 150px;
+    padding: 20px;
+}
+.boxcontent2{
+    background-color: #eee;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    min-height: 150px;
+}
+.boxfooter{
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px #333 solid;
+}
+.banner{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    height: 200px;
+}
+.boxsp{
+    float: left;
+    width: 32%;
+    min-height:150px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.boxsp img{
+    width: 60%;
+    height: 220px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.menu ul{
+    padding: 0px 10px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+.menu ul li a{
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: white;
+    font-size: 1vw;
+}
+/*box tai khoan*/
+.formtaikhoan{
+    line-height: 150%;
+}
+.formtaikhoan input[type="email"]{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.formtaikhoan input[type="text"]{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.formtaikhoan input[type="password"]{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.formtaikhoan input[type="checkbox"]{
+    border-radius: 5px;
+}
+.formtaikhoan input[type="sumbit"]{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px #ccc solid;
+}
+.formtaikhoan input[type="sumbit"]:hover{
+    background-color: white;
+}
+
+.formtaikhoan li a{
+    color: #002199;
+    text-decoration: underline;
+}
+/* menu doc*/
+
+.menudoc ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menudoc ul li{
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px #ccc solid;
+}
+.menudoc ul li a {
+    color: #666;
+    text-decoration: none;
+}
+.menudoc ul li:hover {
+    background-color: #ccc;
+}
+.searbox input[type="text"]{
+    width: 100%;
+    background-color: #fff;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+}
+
+/* top 10*/
+.top10 img {
+   width: 20%;
+   height: 30px;
+   float: left;
+   margin-right: 10px;
+   border-radius: 1px #934343 solid;
+}
+.top10 a{
+    color: #1d14cb;
+    text-decoration: none;
+}
+.top10 a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+.top10{
+    margin-top: 20px;
+}
+
+/* ADMIN*/
+.headeradmin{
+    background-color: rgb(144, 151, 164);
+    border: 1px #ccc solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 2vw;
+}
+.headeradmin h1{
+    font-size: 2vw;
+}
+.frmtitle{
+    background-color: #eee;
+    border: 1px #ccc solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+.frmcontent{
+    padding: 20px 0px;
+}
+
+.frmcontent input[type="text"]{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.frmcontent input[type="password"]{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.frmcontent input[type="checkbox"]{
+    border-radius: 5px;
+}
+.frmcontent input[type="sumbit"]{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px #ccc solid;
+}
+.frmcontent input[type="sumbit"]:hover{
+    background-color: white;
+}
+
+.frmcontent li a{
+    color: #002199;
+    text-decoration: underline;
+}
+.frmdsloai table{
+    width: 100%;
+    border-collapse: collapse;
+}
+ .frmdsloai table th{
+    padding: 10px;
+    background-color: #ccc;
+}
+/*
+.frmdsloai table th:nth-child(4){
+    width: 30%;
+    padding: 10px;
+    background-color: #ccc;
+}
+.frmdsloai table th:nth-child(2){
+    width: 40%;
+     padding: 10px;
+    background-color: #ccc;
+}
+.frmdsloai table th:nth-child(3){
+    width: 20%;
+    padding: 10px;
+    background-color: #ccc;
+} */
+.frmdsloai table td{
+    padding: 10px 20px;
+    border: 1px #ccc solid;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0px;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+    left: 0px;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.spct{
+    text-align: center;
+}
+.thongbao{
+    color: red;
+}
+.binhluan{
+    width:100%;
+}
+.binhluan table{
+    width:100%;
+    margin-left: 5%;
+}
+.binhluan table td:nth-child(1){
+    width: 50%;
+}
+.binhluan table td:nth-child(2){
+    width: 30%;
+}
+.binhluan table td:nth-child(3){
+    width: 50%;
+}
